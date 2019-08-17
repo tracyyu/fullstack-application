@@ -1,0 +1,37 @@
+{
+  "name": "fullstack-application",
+  "version": "1.0.0",
+  "description": "Requirement:  - Our goal is to build a ticketing order app for a particualr restaurant.  - Users can submit an order to any restaurant listed in the dropdown below, and will be displayed passed on time the order was submitted.  - The app should be able to filter by the resturant selection, and orders can be deleted off the list.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -w",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracyyu/fullstack-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracyyu/fullstack-application/issues"
+  },
+  "homepage": "https://github.com/tracyyu/fullstack-application#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.19.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
